@@ -5,7 +5,7 @@ Project Type: Academic / Portfolio Project
 
 ---
 
-## 📌Project Overview
+## Project Overview
 This project implements an end-to-end data analytics workflow for analyzing New York City crime data.  
 It includes data cleaning, transformation, optimization using Parquet format, and visualization through an interactive Plotly Dash dashboard.
 
@@ -13,7 +13,7 @@ The project demonstrates practical experience in data analysis, data engineering
 
 ---
 
-## 🎯Objectives
+## Objectives
 - Clean and preprocess raw crime data  
 - Convert CSV data into optimized Parquet format  
 - Build a structured backend data pipeline  
@@ -22,7 +22,7 @@ The project demonstrates practical experience in data analysis, data engineering
 
 ---
 
-## ✨Key Highlights
+## Key Highlights
 - Efficient data storage using columnar Parquet files  
 - Transition from Jupyter notebooks to Python scripts  
 - Interactive visualizations with Plotly Dash  
@@ -31,7 +31,7 @@ The project demonstrates practical experience in data analysis, data engineering
 
 ---
 
-## 🛠️Tech Stack
+## Tech Stack
 - Python  
 - Pandas  
 - NumPy  
@@ -42,7 +42,7 @@ The project demonstrates practical experience in data analysis, data engineering
 
 ---
 
-## 📂Project Structure
+## Project Structure
 ```text
 Data-Analysis-parquet-dashboard/
 ├── backend/
@@ -61,7 +61,7 @@ Data-Analysis-parquet-dashboard/
 ├── .gitignore
 └── README.md
 ```
-## 🔄Data Workflow
+## Data Workflow
 
 - Raw CSV files are stored in the data/raw/ directory
 - Data cleaning and preprocessing are performed using Jupyter notebooks
@@ -69,20 +69,20 @@ Data-Analysis-parquet-dashboard/
 - Backend scripts load and aggregate the processed data
 - The Dash application visualizes the processed data interactively
 
-## 📊Dashboard Features
+## Dashboard Features
 
 - Filtering by year, borough, crime type, demographics, and age group
 - Interactive bar charts and trend visualizations
 - Optimized data loading using Parquet files
 
-## 🚀How to Run the Project
+## How to Run the Project
 
 Prerequisites
 - Python 3.9 or higher
 - Docker
 - Docker Compose
 
-  ### 🖥️Run Locally 
+  ### Run Locally 
   ```
    pip install -r backend/requirements.txt
   python frontend/dashboard.py
@@ -91,7 +91,7 @@ Prerequisites
   ```
   http://localhost:8050
   ```
-  ### 🐳Run Using Docker
+  ### Run Using Docker
   ```
   docker-compose up --build
   ```
@@ -100,7 +100,7 @@ Prerequisites
   http://localhost:8050
   ```
 
-## 🔮Future Improvements
+## Future Improvements
 - Add machine learning models for prediction
 - Improve schema validation and error handling
 - Deploy the dashboard to cloud platforms (Render / AWS)
