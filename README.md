@@ -1,4 +1,4 @@
-# 📊 New York Crime Data Analysis & Interactive Dashboard
+#  New York Crime Data Analysis & Interactive Dashboard
 
 Author: Yash  
 Project Type: Academic / Portfolio Project  
